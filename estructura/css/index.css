@@ -1,0 +1,91 @@
+
+/*Selectores de etiqueta*/
+
+hr{
+	border-top: 1px solid #C4C3C3;
+}
+
+/*Selectores de Id*/
+
+#linea{
+	border-top: 1px solid #00FF00;
+}
+
+#contenedorMain{
+	padding: 0px;
+}
+
+#contenedorIzquierdo{
+	text-align: left;
+	padding-top: 20px;
+	color: white;
+}
+
+#inputBuscar{
+	border: 1px solid #00FF00;
+	background-color: #156692;
+	color: #8AE2FE;
+}
+
+#divBuscar{
+	color: #26B2FF;
+}
+
+#contenedorDerecho{
+	padding: 20px;
+	background-color: #D3DCDB;
+}
+
+/*Selectores de Clase*/
+
+.contenedorPublicacion{
+	background-color: #E7F1F0;
+	padding: 0px;
+	padding-top: 10px;
+	text-align: left;
+	border-bottom: 3px solid #A0B5B3;
+	border-right: 1px solid #A0B5B3;
+}
+
+.contenedorParrafo{
+	padding: 0px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.imagen{
+	height: 165px;
+	background-color: white;
+}
+
+.fechaComentar{
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.tituloFecha{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.titulo{
+padding-left: 0px;
+	padding-right: 0px;
+}
+
+.editorNombre{
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.contenedorFoto{
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.foto{
+	width: 210px;
+}

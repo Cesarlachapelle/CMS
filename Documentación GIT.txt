@@ -1,0 +1,39 @@
+
+**Documentación  GIT, proyecto CMS**
+
+>>>Al branch en bitucket al que apuntan estos comandos es a master<<<
+>>>Ejecutar estos comandos tal y cual como estan escritos, así no habrá ningún problema<<<
+>>>No es necesario descargar el repositorio solo basta con ejecutar estos comandos<<<
+
+///--Clonar repositorio desde BitBucket:
+
+1. Crea una carpeta en tu sistema (no iniciar un repositorio dentro de esta carpeta).
+2. Entrar desde la consola a esta carpeta que fue creada.
+2. Usa el siguente comando: 
+	git clone (Escribe aqui sin los parentesis el link del repositorio)
+
+///--Hacer commit a todos los cambios hechos en local para luego subir a repositorio:
+
+1. Entrar desde la consola a la carpeta del proyecto.
+2. Ejecutar el siguiente comando:
+	git add *
+3. Ejecutar el siguiente comando:
+	git commit * -m (Aqui va el mensaje sin los parentesis y entre comillas)
+
+///--Subir cambios al repositorio:
+
+1. Entrar desde la consola a la carpeta del proyecto.
+2. Ejecutar el siguiente comando:
+	git push
+
+///--Actualizar tu repositorio local:
+
+>>>Esto debe de hacerse cada vez que otro desarrollador haga cambios en el repositorio de bitbucket<<<
+
+1. Ejecutar el siguiente comando:
+	git pull origin master
+2. Ejecutar el siguiente comando:
+	git commit -m (Aqui va el mensaje sin los parentesis y entre comillas)
+
+
+

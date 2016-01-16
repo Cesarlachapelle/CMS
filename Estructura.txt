@@ -1,0 +1,126 @@
+﻿
+1) Estructura de la pagina:
+
+	#	 Leyenda	#
+
+#	 #  : comentario	#
+#	 -  : carpeta		#
+#	{ } : variable		#
+#	 *  : index			#
+#	 /  : subcarpeta	#
+#	 @  : archivos		#
+
+-admin
+	login.php
+	logout.php			#es puro PHP
+	create.php
+	dashboard.php
+	setting.php
+	newpost.php
+
+
+-css
+	@css de las paginas
+	bootstrap.min.css
+	globals.css
+
+
+-images
+	-sys
+		imgnf.jpg
+		@imagenes del sistema
+	-users
+		-{username}
+			-{postID}
+				@imagenes de posts
+
+
+-include
+	-temp
+		template.php
+	debug0.php
+	myconnection.php
+	essentials.php
+
+
+-js
+	jquery.min.js
+	@js con funciones de uso comun
+	@js con clases de uso comun
+
+
+*principal.php
+dashboard.php
+comment.php
+
+
+
+2) Estructura de la Base de Datos
+
+	#	 Leyenda	#
+
+#	 #	: comentario	#
+#	 @	: BDD			#
+#	 -	: tabla			#
+#	 %	: procedure		#
+#	 +	: funcion		#
+#	{ }	: argumentos	#
+#	( )	: detalles		#
+#	[ ]	: opciones		#
+#	 ~	: ruta raiz		#
+#	 &	: var SQL		#
+#	 *  : campo			#
+#	 >	: retorno		#
+
+@projectname
+
+-account
+	id (numero, no nulo, autoincrementable)
+	user (texto, no nulo)
+	pass (texto, no nulo, format=md5)
+	addr (texto, no nulo)
+	name (texto, nulo)
+	lname (texto, nulo)
+
+
+-comment
+	id (numero, no nulo, autoincrementable)
+	body (texto, no nulo)
+	name (texto, no nulo)
+	addr (texto, no nulo)
+	date (texto, no nulo,format='dd/mm/aa')
+	id_post (numero, no nulo, vinculo)
+
+
+-post
+	id (numero, no nulo, autoincremento)
+	title (texto, no nulo)
+	body (texto, no nulo)
+	date (texto, no nulo,format='dd/mm/aa')
+	category (texto, no nulo, default='publicacion',format='cat1,cat2,cat3')
+	id_acc (numero, no nulo, vinculo)
+
+
+###		Procedimientos almacenados		###
+
+#Verificar que los datos de autenticacion son correctos
+%Autenticate { &user (texto), &pass (texto) } > [0,1]
+
+#Intentar crear un usuario luego de verificar no si existe 
+%CreateUser { &us (texto), &pass (texto), &addr (texto) } > [0,1]
+
+#Eliminar un post y todos los comentarios relacionados
+%DelPost { &id (num) }
+
+#Buscar la informacion requerida
+%Search { &val (texto), &filter (texto) } > (tabla)
+
+
+
+###		funciones		###
+
+#Contar la cantidad de posts de un usuario
++CountPost { &id (num) } > (num)
+
+#Contar la cantidad de comentarios de un usuario
++CountComm { &id (num) } > (num)

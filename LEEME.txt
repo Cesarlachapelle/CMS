@@ -1,0 +1,13 @@
+<?php
+	$TITLE = '';
+	$PAGE_CSS = false;
+	$GLOBAL = false;
+	$BOOTSTRAP = true;
+	$JQUERY = true;
+	$INCL = array('myconnection.php');
+	include "include/essentials.php";
+?>
+
+<div id="center_body" style="margin:10px">
+	<!--code-->
+</div>

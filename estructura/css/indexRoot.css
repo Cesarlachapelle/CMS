@@ -1,0 +1,54 @@
+
+/*Selectores de etiqueta*/
+
+img{
+	border: 1px solid #00A6EB;
+}
+
+/*Selectores de Id*/
+
+#inputBuscar{
+	border: 1px solid #9C9A9A;
+	background-color: #353535;
+}
+
+#icono{
+	border: 0px;
+	height: 50px;
+}
+
+#menuDashboard{
+	background-color: #131313;
+	padding-right: 0px;
+	padding-left: 0px;
+	border-bottom: 1px solid #00A6EB;
+	color: #00A6EB;
+	font-size: 16pt;
+	text-align: center;
+}
+
+#contenedorDerecho{
+	background-color: #303030;
+	color: #9C9A9A;
+}
+
+#contenedorIzquierdo{
+	background-color: #171717;
+	color: #9C9A9A;
+}
+
+#linea{
+	border-top: 1px solid #00A6EB;
+}
+
+#divBuscar{
+	color: #ACADAD;
+}
+
+/*Selectores de clase*/
+
+.contenedorPublicacion{
+	background-color: #474747;
+	border-bottom: 3px solid #242424;
+	border-right: 1px solid #242424;
+}

@@ -1,0 +1,60 @@
+
+/*Fuente*/
+
+@font-face{
+	font-family: "fuente1";
+	src: url(../fonts/Exo-MediumItalic.ttf);
+}
+
+/*Selectores de etiqueta*/
+
+body{
+	text-align: center;
+	background-color: #D3DCDB;
+	color: #727E7D;
+	font-family: "fuente1";
+}
+
+/*Selectores de Id*/
+
+#menu{
+	background-color: #023957;
+	border-bottom: 1px solid #13ACFF;
+	color: #26B2FF;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 12px;
+}
+
+#menu a{
+	text-decoration: none;
+	color:  #26B2FF;
+}
+
+#footer{
+	color: #949494;
+	padding: 20px;
+}
+
+/*Selectores de Clase*/
+
+
+.imgMenu{
+	height: 49px;
+}
+
+.botonMenu{
+	height: 49px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.botonMenu:hover{
+	background-color: #005E91;
+	color: #A4DFFF;
+}
+
+.nombres{
+	font-size: 8pt;
+	padding-bottom: 10px;
+}

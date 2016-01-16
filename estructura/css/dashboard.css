@@ -1,0 +1,105 @@
+
+/*Selectores de Etiqueta*/
+
+h4{
+	margin: 0px;
+}
+
+/*Selectores de Id*/
+
+#contenedorDashboard{
+	text-align: justify;
+}
+
+#tablero{
+	text-align: left;
+	padding: 0px;
+}
+
+#descripcionGeneral, #informacion, #actividadReciente{
+	background-color: #E7F1F0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#contenedorIzquierdo{
+	padding: 10px;
+}
+
+#editar{
+	text-align: right;
+	padding: 10px;
+}
+
+#publicaciones{
+	padding: 0px;
+}
+
+#misPublicaciones{
+	background-color: #E7F1F0; 
+	border: 1px solid #9FBCBA;
+	border-radius: 3px;
+	padding-bottom: 20px;
+}
+
+#contenedorDerecho{
+	padding: 10px;
+}
+
+/*Selectores de Clase*/
+
+.imagen{
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+.fecha{
+	text-align: left;
+	padding: 0px;
+}
+
+.publicacion{
+	text-align: left;
+	padding: 0px;
+}
+
+.parrafo{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.nombrePublicacion{
+	padding-left: 0px;
+}
+
+.contenedor{
+	border: 1px solid #9FBCBA;
+	border-radius: 3px;
+}
+
+.tituloPublicacion{
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #B1CCCA;
+	border-radius: 3px;
+}
+
+.titulo{
+	padding: 0px;
+	text-align: left;
+}
+
+.fecha2{
+	padding: 0px;
+	text-align: right;
+}
+
+.editar{
+	text-align: right;
+	padding-right: 0px;
+}
+
+
+
+

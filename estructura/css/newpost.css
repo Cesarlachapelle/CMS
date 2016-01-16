@@ -1,0 +1,80 @@
+
+/*Selectores de Id*/
+
+#contenedorNewpost{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contenidoNewpost{
+	background-color: #E7F1F0;
+	padding: 20px;
+	border-radius: 3px;
+	font-size: 16px;
+}
+
+#contenedorIzquierdo{
+	text-align: left;
+}
+
+#contenedorDerecho{
+	text-align: left; 
+	padding-top: 27px;
+}
+
+#botonMultimedia{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+}
+
+#contenedorMultimedia{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#area1, #area2{
+	background-color: white;
+	padding: 0px;
+}
+
+#area2 textarea{
+	width: 100%;
+}
+
+#texto{
+	border-left: 1px solid #E7F1F0;
+	background-color: #D3DCDB;
+	cursor: default;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select:none;
+}
+
+#contenedorSelect{
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#contenedorFoto{
+	padding: 0px;
+}
+
+#foto{
+	display: none;
+}
+
+#filename{
+	font-size: 9pt;
+	color: red;
+	text-align: center;
+	padding: 5px;
+	padding-top: 0px;
+}
+
+/*Selectores de Clase*/
+

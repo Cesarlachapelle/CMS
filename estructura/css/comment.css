@@ -1,0 +1,56 @@
+
+/*Selectores de etiqueta*/
+
+hr{
+	border-top: 1px solid #C4C3C3;
+}
+
+/*Selectodres de Id*/
+
+#linea{
+	border-top: 1px solid #00FF00;
+}
+
+
+#contenedorDerecho{
+	background-color: #D3DCDB;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contenedorIzquierdo{
+	padding-top: 10px;
+	text-align: left;
+	color: white;
+}
+
+#contenedorComment{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+#contenedorCampos{
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: left;
+}
+
+#divBuscar{
+	color: #26B2FF;
+}
+
+#inputBuscar{
+	border: 1px solid #00FF00;
+	background-color: #156692;
+	color: #8AE2FE;
+}
+
+/*Selectores de Clase*/
+
+.boton{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
